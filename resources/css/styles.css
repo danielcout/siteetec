@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #ff0000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.cursos {
+    text-align: center;
+    padding: 20px;
+}
+
+.cursos h2 {
+    margin-bottom: 20px;
+}
+
+.cursos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso {
+    margin: 0 10px;
+}
+
+.curso img {
+    max-width: 200px;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
